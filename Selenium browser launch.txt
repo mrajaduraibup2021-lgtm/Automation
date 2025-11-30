@@ -2,3 +2,7 @@ System.setProperty("webdriver.chrome.driver", "path/to/chromedriver");
 WebDriver driver = new ChromeDriver();
 driver.get("http://www.google.com"); // to load google
 
+WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+wait.until(ExpectedConditions.elementToBeClickable(By.id("adfads")));
+
+
