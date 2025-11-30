@@ -1,3 +1,4 @@
 System.setProperty("webdriver.chrome.driver", "path/to/chromedriver");  
 WebDriver driver = new ChromeDriver();
-driver.get("http://www.google.com");
+driver.get("http://www.google.com"); // to load google
+
