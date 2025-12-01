@@ -6,6 +6,7 @@ WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
 wait.until(ExpectedConditions.elementToBeClickable(By.id("adfads"))); //to test merge conflict implicit wait
 
+driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
 
 
